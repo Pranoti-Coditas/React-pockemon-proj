@@ -1,0 +1,14 @@
+.Login {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+
+    .LoginForm {
+        width: 60%;
+        box-shadow: 0px 0px 8px 2px #ccc;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 1rem;
+    }
+}
